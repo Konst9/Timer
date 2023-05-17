@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://klike.net/uploads/posts/2019-02/1550643406_1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .containeer {
+    position: relative;
+    text-align: center;
+  }
+  .time_rem {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  }
+  .constaineer_btn {
+    display: flex;
+    justify-content: center;
+  }
+  
